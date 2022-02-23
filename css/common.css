@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+body {
+  font-size: 15px;
+  line-height: 1.8;
+  word-break: break-all;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #1ca9e3;
+}
+
+li {
+  list-style: none;
+}
+
+
+/* #EBCED0; */
+
+.header_top {
+  width: 100%;
+  display: flex;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  margin-bottom: 30px;
+  z-index: 100;
+}
+
+.left-box {
+  width: 30%;
+  font-size: 32px;
+  margin-left: 60px;
+  margin-top: 5px;
+  color: #555;
+}
+
+.center-box {
+  width: 40%;
+}
+
+.menu_box {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.menu-center a {
+  display: inline-block;
+  font-size: 18px;
+  padding: 0 18px;
+  color: #555;
+}
+
+.menu-center a:hover {
+  color: #ff78f0;
+}
+
+
+.right-box {
+  width: 30%;
+  margin-right: 12px; 
+}
+
+.sns-box {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 100px;
+  padding-top: 14px;
+}
+
+.facebook, .twitter, .mail {
+  display: inline-block;
+  width: 32px;
+  padding-left: 16px;
+}
+
+/* top*/
+.top {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 234, 237); 
+}
+
+.top_box{
+  position: relative;
+}
+
+.top_img {
+  margin-top: 50px;
+  border-radius: 10px;
+ 
+}
+.top_font {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.top_title {
+  font-size: 60px;
+  letter-spacing: 3px;
+}
+
+.top_subtitle {
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.section {
+  padding: 120px 0;
+}
+.section:nth-of-type(odd) {
+  background-color: #f7f7f7;
+}
+
+.inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.font1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #555;
+  margin-bottom: 60px;
+}
+
+.font2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.font3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #555;
+}
+
+.font4 {
+  width: 60%;
+  margin: 0 auto;
+  color: #555;
+}
+
+.font5 {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: -25px;
+  color: #ff78f0;
+}
+
+.about_me {
+  display: flex;
+}
+
+.about_img{
+  width: 300PX;
+  margin-left: 50px;
+}
+
+.skill_list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.skill_item {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.skill_body {
+  margin-top: 10px;
+}
+
+.skill_body p {
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.works_all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.works_item {
+  margin: 0 2%;
+  text-align: center;
+}
+
+.work_body a {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 6px;
+  color: #555;
+}
+
+.work_body a:hover {
+  color: #ff78f0;
+}
+.contact_body {
+  text-align: center;
+}
+
+.address img{
+  float: left;
+  margin: -2px 5px 0 350px;
+}
+.address p {
+  margin-top: -25px;
+  margin-left: -360px;
+  display: inline-block;
+}
+
+.contact_sns img {
+  width: 60px;
+  margin: 10px;
+}
+
+.bottom {
+  background-color: #333;
+}
+
+.bottom .inner {
+  padding: 30px;
+}
+.copy_right {
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+}
